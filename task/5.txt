@@ -1,0 +1,77 @@
+  263  cat > home_animals
+  264  cat home_animals 
+  265  cat > pack_animals
+  266  cat home_animals pack_animals > animals
+  267  cat animals 
+  268  mv animals mans_friends
+  269  ls
+  270  cd..
+  271  cd ..
+  272  mkdir new_task2
+  273  cd task2/
+  274  mv mans_friends ~/homework/new_task2
+  275  ls
+  276  cd ~/homework/new_task2/
+  277  ls
+  278  sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+  279  sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+  280  sudo apt-get update
+  281  sudo apt-get install mysql-server
+  282  sudo network ls
+  283  sudo netlist
+  284  sudo netstat -ntlp
+  285  sudo apt-get install netstat
+  286  sudo netstat -ntlp
+  287  sudo apt install net-tools
+  288  sudo netstat -ntlp
+  289  docker ps
+  290  docker compose down
+  291  cd ..
+  292  cd docker/
+  293  ls
+  294  cd hw5
+  295  ls
+  296  docker compose down
+  297  docker ps
+  298  docker services ls
+  299  docker service ls
+  300  docker service rm test_db
+  301  docker service rm test_phpadm 
+  302  docker ps
+  303  sudo netstat -ntlp
+  304  sudo apt-get install mysql-server
+  305  sudo mysql-server start
+  306  sudo mysql
+  307  sudo service mysql status
+  308  sudo service mysql restart
+  309  sudo netstat -ntlp
+  310  mysql -u root -p
+  311  sudo journalctl -u mysql
+  312  sudo service mysql status
+  313  sudo mysql
+  314  mysql --version
+  315  mysql -u root -p
+  316  mysql -u alex -p
+  317  ip a
+  318  mysql -u root -p
+  319  clear
+  320  wget https://download.virtualbox.org/virtualbox/7.0.6/virtualbox7.0_7.0.6-155176~Ubuntu~jammy_amd64.deb
+  321  wget https://ubuntu.pkgs.org/22.04/ubuntu-universe-amd64/gimp_2.10.30-1build1_amd64.deb.html
+  322  wget https://ubuntu.pkgs.org/22.04/ubuntu-universe-amd64/gimp_2.10.30-1build1_amd64.deb
+  323  wget http://archive.ubuntu.com/ubuntu/pool/universe/g/gimp/gimp_2.10.30-1build1_amd64.deb
+  324  dpkg -i gimp_2.10.30-1build1_amd64.deb
+  325  sudo dpkg -i gimp_2.10.30-1build1_amd64.deb
+  326  rm -f gimp_2.10.30-1build1_amd64.deb
+  327  cd
+  328  clear
+  329  wget https://download.virtualbox.org/virtualbox/7.0.8/virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
+  330  dpkg -i virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
+  331  sudo dpkg -i virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb
+  332  whereis virtualbox
+  333  whereis gimp
+  334  dpkg --remove virtualbox-7.0
+  335  sudo dpkg --remove virtualbox-7.0
+  336  sudo dpkg --remove gimp
+  337  whereis gimp
+  338  whereis virtualbox
+  339  history

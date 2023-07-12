@@ -1,0 +1,3 @@
+url = jdbc:mysql://192.168.225.133:3306/Human_friends?serverTimezone=UTC
+username = alex
+password = 1234
